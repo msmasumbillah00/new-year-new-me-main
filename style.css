@@ -65,6 +65,7 @@ main {
 
 .my-details li {
     list-style-type: lower-alpha;
+    line-height: 30px;
 }
 
 
@@ -85,4 +86,17 @@ main {
 
 .paln h3 {
     font-size: 30px;
+}
+
+/* call-section */
+.call-section {
+    background-image: url(/images/gradient1.png), url(/images/watch.png);
+    background-repeat: no-repeat;
+    padding: 60px;
+    background-size: 100%;
+}
+
+.call-header {
+    font-size: 30px;
+    color: aliceblue;
 }
