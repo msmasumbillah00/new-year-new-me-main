@@ -42,10 +42,13 @@
 }
 
 
+/* main section */
+main {
+    padding: 100px 230px;
+}
 
 .my-details {
     display: flex;
-    padding: 200px 300px 100px;
 }
 
 .my-details>div {
@@ -62,4 +65,24 @@
 
 .my-details li {
     list-style-type: lower-alpha;
+}
+
+
+/* plane section */
+
+.my-plan-section {
+    margin: 200px 0;
+    text-align: center;
+
+}
+
+.my-plans {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0;
+
+}
+
+.paln h3 {
+    font-size: 30px;
 }
