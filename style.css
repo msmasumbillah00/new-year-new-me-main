@@ -2,10 +2,11 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+/* banner section  */
 .baner {
     display: flex;
     padding: 100px 200px;
-    background-image: url("/images/banner/banner1.png");
+    background-image: url("/images/banner/banner3.png");
     background-size: 100%;
 }
 
@@ -26,7 +27,7 @@
 .baner-details {
     font-size: 18px;
     line-height: 26px;
-    color: #444343;
+    color: #d6d0d0;
 }
 
 .button-primary {
@@ -38,4 +39,27 @@
     line-height: 23px;
     border: none;
     color: white;
+}
+
+
+
+.my-details {
+    display: flex;
+    padding: 200px 300px 100px;
+}
+
+.my-details>div {
+    width: 50%;
+}
+
+.my-details-discribe {
+    margin: 200px;
+}
+
+.section-title {
+    font-size: 40px;
+}
+
+.my-details li {
+    list-style-type: lower-alpha;
 }
